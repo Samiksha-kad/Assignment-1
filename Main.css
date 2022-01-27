@@ -719,4 +719,51 @@ footer{
     }
  
 }
+@media screen and (max-width:670px) {
+    #home {
+        padding: 3px 9px;
+        width: 103%;
+    }
+    #navbar::before{
+        height: 94%;
+        width:100%;   
+    }
+    #home::before {
+        height: 144%;
+        width: 106%;
+    }
+    .right {
+        float: right;
+        width: 32%;
+        margin-right: -53px;
+    }
+    .left_sec img {
+        margin-top: 49px;
+    }
+    .left_sec h4 {
+        margin-top: 14%;
+        width: 23%;
+    }
+    .bet_sec img {
+        padding-top: 86px;
+        margin-top: 10px;
+    }
+    .bet_sec h4 {
+        margin-top: 103px;
+        width: 23%;
+    }
+    .right_sec img {
+        padding-top: 86px;
+        margin-top: 10px;
+    }
+    .right_sec h4 {
+        margin-top: -8%;
+        width: 17%;
+        margin-left: 63px;
+    }
+    footer {
+        width: 120%;
+    }
+ 
+}
 
